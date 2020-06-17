@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1085488593598-s63n292imqaur2fn5d37aoogtr8i01cn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1085488593598-s63n292imqaur2fn5d37aoogtr8i01cn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDbFrY4fMEs8w8ExVDEiVCOZhl5dRV--3M</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1085488593598</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.aridinc.travelbudget</string>
+	<key>PROJECT_ID</key>
+	<string>travel-budget-99a1c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>travel-budget-99a1c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1085488593598:ios:a6587326d7c8c5b45d3cef</string>
+	<key>DATABASE_URL</key>
+	<string>https://travel-budget-99a1c.firebaseio.com</string>
+</dict>
+</plist>
