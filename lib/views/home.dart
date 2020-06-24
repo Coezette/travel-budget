@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:travelbudget/services/auth_service.dart';
+import 'package:travelbudget/widgets/provider_widget.dart';
 
 import '../models/trip_model.dart';
 
@@ -48,6 +50,17 @@ class _HomeState extends State<Home> {
                         builder: (context) => NewTripLocationView(
                               trip: newTrip,
                             )));
+              }),
+          IconButton(
+              icon: Icon(Icons.undo),
+              onPressed: () async {
+                try {
+                  AuthService auth = Provider.of(context).auth;
+                  await auth.signOut();
+                  print("Singed out successfully");
+                } catch (error) {
+                  print(error);
+                }
               }),
         ],
       ),
